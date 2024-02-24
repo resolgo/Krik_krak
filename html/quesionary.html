@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/pageStyle2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <title>¿QUE PALABRA ES?</title>
+</head>
+<body>
+    <div class="contenedor2">
+        <img id="logo" src="/icons/logo.png" alt="logo"><br>
+        <a href="/index.html"><img src="/icons/icons8-back-40_1.png" alt="go back"></a>
+
+        <div id="preguntaYRespuesta">
+            <form id="formulario" onsubmit="enviarRespuesta();return false;">
+                <p id="randomEnigmasP"></p>
+                
+                <label for="respuesta">Respuesta:</label><br>
+                <input type="text" id="respuesta" name="respuesta"><br><br>
+        
+                <button type="submit"><img src="/icons/icons8-verified-40.png" alt="approved"></button>
+                <button type="reset"><img src="/icons/icons8-close-40.png" alt="Delet"></button>
+
+                <button onclick="location.reload();"><img src="/icons/icons8-next-40.png" alt="Next"></button>
+            </form>
+        </div>
+        
+        <div id="corrección">
+            <p id="correctoOIncorrecto"></p>
+        </div>
+
+        <div id="rpsImagenC"></div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
