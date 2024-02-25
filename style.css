@@ -9,8 +9,38 @@ body {
 
     margin: 10px; /* Elimina el margen predeterminado */
     padding: 0; /* Elimina el relleno predeterminado */
-
 }
+
+.contenedor {
+    border: 2px solid #173985be; /* Borde sólido de 2px, color gris oscuro */
+    padding: 20px; /* Espaciado interno */
+    background-color: hsl(108, 28%, 79%); /* Color de fondo del contenedor */
+    max-width: 400px; /* Ancho máximo del contenedor */
+    width: 90%; /* Anchura del contenedor */
+    text-align: center; /* Alinea el contenido al centro */
+    border-radius: 10px; /* Radio de borde */
+
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+   
+    box-shadow: inset 5px 5px 10px rgba(15, 76, 207, 0.5),
+    inset -5px -5px 10px rgba(15, 76, 207, 0.5),
+    inset 5px -5px 10px rgba(15, 76, 207, 0.5),
+    inset -5px 5px 10px rgba(15, 76, 207, 0.5);
+}
+
+#logo{
+    width: 70%;
+}
+
+.contenedor h2{
+    color: red;
+}
+
+/*pagina 2*/
 
 .contenedor2 {
     border: 2px solid #173985be; /* Borde sólido de 2px, color gris oscuro */
@@ -21,6 +51,7 @@ body {
     text-align: center; /* Alinea el contenido al centro */
     border-radius: 10px; /* Radio de borde */
 
+   
     box-shadow: inset 5px 5px 10px rgba(15, 76, 207, 0.5),
     inset -5px -5px 10px rgba(15, 76, 207, 0.5),
     inset 5px -5px 10px rgba(15, 76, 207, 0.5),
@@ -32,9 +63,6 @@ body {
     background: none;
 }
 
-#logo{
-    width: 70%;
-}
 
 label{
     font-family: "Protest Riot", sans-serif;
@@ -42,4 +70,7 @@ label{
     font-style: normal;
     color: red;
 }
+
+
+
 

@@ -434,7 +434,7 @@ function enviarRespuesta(){
         rpsCorrecto.innerText= "¡Respuesta Correcta!"; 
 
         var imagenC = document.createElement("img");
-        imagenC.src = "/icons/bravo.gif";
+        imagenC.src = "image/bravo.gif";
         console.log(document.getElementById("rpsImagenC").appendChild(imagenC));
     }
     else {
