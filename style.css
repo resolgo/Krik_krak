@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Altura del viewport */
-    background-image: url('image/pexels-sharon-snider-5142463.jpg'); /* Imagen de fondo */
+    background-image: url('./image/pexels-sharon-snider-5142463.jpg'); /* Imagen de fondo */
     background-size: cover; /* Para cubrir todo el fondo */
     background-position: center; /* Para centrar la imagen */
 
